@@ -1,0 +1,73 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+body 
+{
+    background: url("https://img4.thuthuatphanmem.vn/uploads/2020/12/26/background-gradient-tim_052413985.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    .result__total 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+  .value__box 
+  {
+      display: flex;
+      .value
+      {
+          width: 50px;
+          height: 50px; 
+          border-radius: 5px;
+
+          background: #fff;
+
+          margin-right: 10px;
+          margin-left: 10px;
+          margin-bottom: 30px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+      }
+  }
+  .roll__value 
+  {
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background: #0004;
+      color: #fff;
+      font-weight: 600;
+      padding: 10px 14px;
+      cursor: pointer;
+  }
+}
